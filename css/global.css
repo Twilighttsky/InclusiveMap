@@ -1,0 +1,36 @@
+/* Link das Configurações para Desktop */
+
+@import url("footer.css");
+@import url("main.css");
+@import url("header.css");
+
+
+/* Import de fonts, etc.. */
+
+
+
+
+/* Configuração geral do HTML */
+
+html {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    font-family: "Inter";
+
+}
+
+/* Criação de variavéis para cores */
+
+:root {
+
+    --azul-petroleo:#456377;
+    --chumbo:#394d4a;
+    --cinza-claro: #A79A9A;
+    --destaque-alaranjado:#cc8d33;
+    --destaque-mostarda:#ccac33;
+}

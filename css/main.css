@@ -1,0 +1,92 @@
+/* import das configurações do global */
+
+@import url("global.css");
+
+
+/* Parte de pesquisa */
+
+.div_pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: var(--azul-petroleo);
+    color: azure;
+    gap: 20px;
+    height: 260px;
+}
+
+h2 {
+    font-weight:400;
+    font-size: 30px;
+}
+
+/*input {
+    color: black;
+} */
+
+#caixa_pesquisa {
+    width: 50%;
+    height: 15%;
+    border: 1px solid  #D9D9D9;
+    border-radius: 4px;
+    background-color: #D9D9D9;
+}
+
+#caixa_pesquisa:focus {
+   outline: none;
+}
+
+/* Abas de navegação */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-block-start: 90px;
+}
+
+nav img {
+    width: 92px;
+    position: absolute;
+    margin-bottom: 200px;
+}
+
+.ult_avaliacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 388px;
+    height: 186px;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 2px;
+}
+
+.lugares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 388px;
+    height: 186px;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 2px;
+}
+
+.comunidade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 388px;
+    height: 186px;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 2px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--destaque-alaranjado);
+}
