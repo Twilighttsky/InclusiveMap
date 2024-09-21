@@ -3,6 +3,12 @@
 @import url("global.css");
 
 
+/* tamanho do main */
+
+main {
+    height: 1450px;
+}
+
 /* Parte de pesquisa */
 
 .div_pesquisa {
@@ -29,7 +35,7 @@ h2 {
     width: 50%;
     height: 15%;
     border: 1px solid  #D9D9D9;
-    border-radius: 4px;
+    border-radius: 10px;
     background-color: #D9D9D9;
 }
 
@@ -42,7 +48,7 @@ h2 {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-block-start: 90px;
 }
 
@@ -60,7 +66,7 @@ nav img {
     width: 388px;
     height: 186px;
     border: 1px solid var(--cinza-claro);
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 .lugares {
@@ -71,7 +77,7 @@ nav img {
     width: 388px;
     height: 186px;
     border: 1px solid var(--cinza-claro);
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 .comunidade {
@@ -82,7 +88,7 @@ nav img {
     width: 388px;
     height: 186px;
     border: 1px solid var(--cinza-claro);
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 h3 {
