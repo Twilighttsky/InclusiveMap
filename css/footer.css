@@ -20,6 +20,7 @@ footer {
     align-items: center;
     flex-direction: column;
     margin-top: 1%;
+    gap: 20px;
     font-family: "inter";
     font-weight: bold;
     font-size: 22px;

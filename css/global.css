@@ -12,11 +12,14 @@
 
 /* Configuração geral do HTML */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 
 html {
 
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     height: 100%;
@@ -35,3 +38,5 @@ html {
     --destaque-alaranjado:#cc8d33;
     --destaque-mostarda:#ccac33;
 }
+
+

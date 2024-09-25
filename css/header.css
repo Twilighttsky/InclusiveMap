@@ -28,9 +28,11 @@ h1 {
 }
 
 .log_cad {
- display: inline-flex;
+ display: flex;
  align-items: center;
- padding-inline-start: 750px;
+ justify-content: flex-end;
+ width: 100%;
+ margin-right: 30px;
  gap: 40px;
 }
 
