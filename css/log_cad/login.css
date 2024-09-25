@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, #456377, #394d4a)no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "inter";
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d9d9d9;
+    height: 90vh;
+    width: 70vw;
+    border-radius: 26px;
+}
+
+h1 {
+    display: flex;
+}
