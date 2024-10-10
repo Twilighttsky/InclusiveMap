@@ -59,6 +59,19 @@ label {
     background-color: #d9d9d9;
 }
 
+#email_log::-webkit-input-placeholder {
+
+    font-size: 16px;
+   
+
+}
+
+#senha_log::-webkit-input-placeholder {
+
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
 input:focus {
     outline: none;
 }
@@ -77,4 +90,8 @@ button {
     border: 0px solid;
     width: 144px;
     height: 40px;
+}
+
+.linkando p{
+    text-decoration:underline;
 }
