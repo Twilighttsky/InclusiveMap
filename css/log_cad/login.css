@@ -59,6 +59,9 @@ label {
     background-color: #d9d9d9;
 }
 
+
+/* estilizando o placeholder */
+
 #email_log::-webkit-input-placeholder {
 
     font-size: 16px;
