@@ -14,7 +14,7 @@ footer {
 
 }
 
-.suporte_cad {
+.suporte_cadastro {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@ footer {
     font-size: 22px;
 }
 
-.suporte {
+.info_adicional {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -54,7 +54,7 @@ footer {
     width: 70px;
 }
 
-.rodape_trans {
+.rodape_transition {
     background-color: #223431;
     height: 40px;
 }

@@ -11,7 +11,7 @@ main {
 
 /* Parte de pesquisa */
 
-.div_pesquisa {
+.pesquisa {
     display: flex;
     align-items: center;
     justify-content: flex-start;
