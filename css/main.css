@@ -16,7 +16,7 @@ main {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    background-color: var(--azul-petroleo);
+    background-color: var(--azul-claro);
     color: azure;
     gap: 20px;
     height: 260px;
@@ -35,9 +35,9 @@ h2 {
 #caixa_pesquisa {
     width: 50%;
     height: 15%;
-    border: 1px solid  #D9D9D9;
+    border: 1px solid white;
     border-radius: 10px;
-    background-color: #D9D9D9;
+    background-color: white;
 }
 
 #caixa_pesquisa:focus {
