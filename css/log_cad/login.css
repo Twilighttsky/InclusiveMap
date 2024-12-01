@@ -7,13 +7,13 @@
 html {
     height: 100%;
     width: 100%;
-    background: linear-gradient(0.43turn, #4EAAE9,  #b0e6ff , #4EAAE9)no-repeat center;
+    background: linear-gradient(0.40turn, #2aa1f0,  #b0e6ff , #2aa1f0)no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Inter";
-    color: aliceblue;
+    color: #ffff;
     font-weight: bold;
 }
 
@@ -24,8 +24,8 @@ html {
     display: flex;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
-    border-bottom: 1px solid rgb(150, 150, 150);
-    box-shadow: 1px 5px 8px  rgb(139, 139, 139);
+    border-bottom: 1px solid rgb(95, 95, 95);
+    box-shadow: 1px 5px 8px  rgb(95, 95, 95);
 }
 
 .img-login {
@@ -47,55 +47,85 @@ img {
 h1 {
     position: absolute;
     margin-left: 53%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 form {
     display: flex;
-    margin-top: 12%;
+    margin-top: 11%;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
     width: 60vw;
-    height: 30vh;
+    height: 45vh;
 }
 
 .email, .password {
     display: flex;
     flex-direction: column;
     height: 10vh;
-    width: 20vw;
-    gap: 10%;
+    width: 17vw;
+    gap:10%;
+    margin-block-end:5%;
+    margin-right: 10%;
 }
 
 .email input, .password input {
     border-radius: 20px;
-    height: 45%;
+    height: 40%;
     width: 100%;
+    padding: 3% 15%;
+    outline: none;
     border: 1px solid rgb(155, 154, 154);
 }
 
+input:hover {
+    border: 1px solid #46c2fc;
+    transition: 400ms ease-in-out;
+}
 
+input:hover::placeholder {
+    color: #646363;
+    transition: 300ms ease-in-out;
+}
 
 button {
-    width: 19vw;
+    width: 22vw;
     border-radius: 6px;
     border: 0;
     height: 13%;
     color: white;
     background-color: #F49746;
     cursor: pointer;
+    margin-left: 2%;
+    margin-block-end: 2%;
 }
 
 .lembrar_redefinir {
-    width: 20vw;
+    width: 25vw;
     display: flex;
     justify-content: space-around;
     font-weight: 200;
+    margin-left: 2%;
 }
 
+a {
+    color: aliceblue;
+    
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+.cadastrar {
+    margin-block-start: 6%;
+    margin-left: 7%;
+}
+
+
 input[type="checkbox"] {
-    -webkit-apparance:none;
+
    background-color: #ff1d1d; 
 }
 
@@ -104,3 +134,30 @@ input::placeholder {
     color: rgb(155, 154, 154);
     font-family: "Inter";
 }
+
+.checkbox p {
+ text-decoration: underline;
+}
+
+.xmark {
+    position: absolute;
+    right: 21%;
+    margin-top: 2.3%;
+    color: rgb(241, 65, 65);
+}
+
+.eye {
+ position: absolute;
+ right: 21%;
+ margin-top: 2.3%;
+ color: rgb(58, 57, 57);
+ cursor: pointer;
+}
+
+.emailAndPasswordIcon {
+    position: absolute;
+ margin-left: 1%;
+ margin-top: 2.3%;
+ color: rgb(58, 57, 57);
+}
+

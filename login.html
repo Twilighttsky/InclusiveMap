@@ -9,6 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.7.1/css/all.css">
     <title>Login</title>
 </head>
 <body>
@@ -31,14 +32,18 @@
 
             <div class="email">
             
-                <label for="text">Email</label>
+                <label for="email_log">Email</label>
+                <label for="email_log" class="emailAndPasswordIcon"><i class="fa-solid fa-envelope"></i></label>
+                <label for="email_log" class="xmark"><i class="fa-solid fa-circle-xmark"></i></label>
                 <input type="email" name="emaillog" id="email_log" placeholder="Fulaninho@gmail.com" required>
 
             </div>
 
             <div class="password">
 
-                <label for="senha">Senha</label>
+                <label for="senha_log">Senha</label>
+                <label for="senha_log" class="emailAndPasswordIcon"><i class="fa-solid fa-lock"></i></label>
+                <label for="senha_log" class="eye"><i class="fa-solid fa-eye" id="btn-senha" onclick="changePasswordVisibility()"></i></label>
                 <input type="password" name="senha" id="senha_log" placeholder="Password" required> 
 
             </div>
@@ -55,8 +60,10 @@
                 <p><a href=""><em>Esqueceu sua senha?</em></a></p>
         </div>
    
-   
+           <a class="cadastrar" href="cadastrar.html" target="_blank" name="cadastrar">Cadastrar</a>
         </form>
+
+       
 
        
 
