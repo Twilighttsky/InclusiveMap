@@ -92,8 +92,24 @@ nav img {
     border-radius: 5px;
 }
 
+.comunidade a {
+    color: var(--destaque-alaranjado);
+}
+
 h3 {
     font-weight: bold;
     font-size: 16px;
     color: var(--destaque-alaranjado);
+}
+
+.mapa {
+ height: 400px;
+ width: 50vw;
+ margin-left: 25vw;
+ margin-block-start: 10%;
+}
+
+.mapa img {
+    width: 50vw;
+    height: 400px;
 }

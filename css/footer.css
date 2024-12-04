@@ -10,7 +10,7 @@ footer {
     flex-direction: column;
     width: 100%;
     height: 350px;
-    background-color: var(--chumbo);
+    background-color: var(--azul-petroleo);
 
 }
 
@@ -55,6 +55,6 @@ footer {
 }
 
 .rodape_transition {
-    background-color: #223431;
+    background-color: var(--chumbo);
     height: 40px;
 }

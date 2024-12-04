@@ -8,15 +8,15 @@ body{
     font-family: "Inter", sans-serif;
 }
 
-.topo{
+.cabecalho{
     height: 70px;
     width: 100%;
-    background-color: #7290A5;
+    background-color: #aacbe0;
 }
 
 .f-h-arround{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 600px;
     width: 100%;
     margin-top: 20px;
@@ -71,11 +71,11 @@ body{
    place-items: center;
     height: 600px;
     width: 100%;
-    background-color: #D9D9D9;
+    background-color: #aacbe0;
     
 }
 
-.TodosComentarios{
+.todosOsComentarios{
     display: grid;
     grid-template-columns: 100px 1fr;
     gap:10px;
@@ -92,17 +92,15 @@ body{
 }
 
 .nomeUsuario{
-    color: #998F8F;
+    color: #ce8b2d;
+    font-weight: bold;
 }
 
-.textoComentario{
+.comentario{
     margin-top: 10px;
     float: left;
 }
 
-.textoComentario{
-    float: left;
-}
 
 .icones1{
   

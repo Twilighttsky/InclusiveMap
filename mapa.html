@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mapa/mapa.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&display=swap"
+    rel="stylesheet">
+    <title>Mapa</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1><a href="home.html">InclusiveMap</a></h1>
+
+    </header>
+
+   <div class="container">
+       
+        <div id="map">
+            
+    </div>
+   </div>
+
+   <div class="pesquisa" id="pesquisa">
+
+    <h2>Pesquise o Local</h2>
+
+
+   <div class="inputs">
+       
+       <input type="text" placeholder="Onde você está?">
+       <input type="text" placeholder="Pra onde quer ir?">
+       <button type="submit">Pesquisar</button>
+   </div>
+
+   
+    <h3>Avaliações</h3>
+    <div class="avaliacoes" id="avaliacoes">
+    <p>5 estrelas</p>
+    <p>4 estrelas</p>
+    <p>3 estrelas</p>
+    <p>2 estrelas</p>
+    <p>1 estrela</p>
+   </div>
+
+   </div>
+
+
+    <!-- JavaScript do Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <script src="/js/mapa.js"></script>
+
+</body>
+</html>
