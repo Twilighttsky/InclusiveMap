@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.topo{
+    height: 70px;
+    width: 100%;
+    background-color: #7290A5;
+}
+
+.f-h-arround{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.bola1 {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    background-color: white; 
+    border-radius: 50%; 
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+
+.bola {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: white; 
+    border-radius: 50%; 
+    margin-top: 10px;
+  }
+
+
+
+/* itens filhos */
+.comunidade{
+    display: grid; 
+    place-items: center; 
+    font-size: 18px;
+    background-color: #4EAAE9;
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+.explicaComunidade{
+    float: center;
+    margin-left: 10%;
+}
+
+.abaComentario{
+    display: grid;
+   place-items: center;
+    height: 600px;
+    width: 100%;
+    background-color: #D9D9D9;
+    
+}
+
+.TodosComentarios{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap:10px;
+    width: 60%;
+    height: 500px;
+}
+
+
+.item{
+    
+   margin-top: 10px;
+   font-size: 16px;
+   text-align: center;
+}
+
+.nomeUsuario{
+    color: #998F8F;
+}
+
+.textoComentario{
+    margin-top: 10px;
+    float: left;
+}
+
+.textoComentario{
+    float: left;
+}
+
+.icones1{
+  
+    margin-top: 10%;
+    margin-left: 5px;
+    width:75% ;
+    height: 75%;
+}
+
+.icones2{
+  
+    margin-top: 10%;
+    width:80% ;
+    height: 80%;
+}
+
+.icones3{
+  
+    margin-top: 10%;
+    width:80% ;
+    height: 80%;
+}
