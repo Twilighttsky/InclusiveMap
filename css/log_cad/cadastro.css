@@ -50,7 +50,7 @@ img {
 }
 
 input {
-    height: 12%;
+    height: 10%;
     border: 1px solid grey;
     border-radius: 22px;
     outline: none;
@@ -66,7 +66,7 @@ button {
     font-family: 'Inter';
     color: white;
     font-weight: bold;
-    height: 10%;
+    height: 9%;
     border-radius: 8px;
     border: none;
     background-color: #f19f2b;
