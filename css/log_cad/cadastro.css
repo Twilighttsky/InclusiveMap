@@ -70,6 +70,7 @@ button {
     border-radius: 8px;
     border: none;
     background-color: #f19f2b;
+    cursor: pointer;
 }
 
 label {
