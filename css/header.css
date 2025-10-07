@@ -18,13 +18,15 @@ header {
 }
 
 .logotipo img {
-    width: 100px;
+    width: 80px;
+    margin-left: 20px;
 }
 
 h1 {
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 34px;
     font-family: "itim";
+    font-weight: 400;
 }
 
 .log_cad {
@@ -38,18 +40,20 @@ h1 {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(43, 42, 42);
 }
 
+
+
 #login {
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .btn_cadastro {
     color: white;
     font-size: 18px;
-    background-color: var(--destaque-alaranjado);
-    border: 1px solid var(--destaque-alaranjado);
+    background-color: rgb(233, 157, 57);
+    border: 1px solid;
     border-radius: 10px;
     cursor: pointer;
     width: 135px;
@@ -57,5 +61,9 @@ a {
 }
 
 .btn_cadastro:hover  {
-   background-color: #c27c37;
+   background-color: #db8d3e;
+}
+
+a:hover {
+    color: rgb(87, 43, 1);
 }

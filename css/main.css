@@ -102,6 +102,10 @@ h3 {
     color: var(--destaque-alaranjado);
 }
 
+h4 {
+    font-weight: 600;
+}
+
 .mapa {
  height: 400px;
  width: 50vw;

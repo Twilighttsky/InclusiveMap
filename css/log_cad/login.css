@@ -57,7 +57,7 @@ form {
     flex-direction: column;
     align-items: center;
     width: 60vw;
-    height: 45vh;
+    height: 50vh;
 }
 
 .email, .password {
@@ -90,7 +90,7 @@ input:hover::placeholder {
 }
 
 button {
-    width: 22vw;
+    width: 21vw;
     border-radius: 6px;
     border: 0;
     height: 13%;
